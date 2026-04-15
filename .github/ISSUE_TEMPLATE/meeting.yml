@@ -4,9 +4,6 @@ labels: ["📝 meeting"]
 body:
   - type: dropdown
     id: team
-    attributes:
-    validations:
-      required: true
   - type: input
     id: datetime
     attributes:
