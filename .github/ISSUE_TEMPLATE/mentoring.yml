@@ -2,25 +2,6 @@ name: 🎓 멘토링
 description: 멘토링 세션 기록
 labels: ["🎓 mentoring"]
 body:
-  - type: dropdown
-    id: team
-    attributes:
-      label: 팀
-      options:
-        - kim-minji (김민지)
-        - kang-inho (강인호)
-        - park-seowoo (박서우)
-        - kim-taeseung (김태승)
-        - jung-areum (정아름)
-        - kim-minsu (김민수)
-        - lee-sunghoon (이성훈)
-        - kim-jaehoon (김재훈)
-        - kim-jongwon (김종원)
-        - yang-junpyo (양준표)
-        - kim-youngchan (김영찬)
-        - kim-sukyung (김수경)
-    validations:
-      required: true
   - type: input
     id: datetime
     attributes:
