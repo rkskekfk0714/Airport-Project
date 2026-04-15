@@ -3,25 +3,6 @@ description: 기술 이슈 보고 및 해결 기록
 labels: ["🔧 troubleshooting"]
 body:
   - type: dropdown
-    id: team
-    attributes:
-      label: 팀
-      options:
-        - kim-minji (김민지)
-        - kang-inho (강인호)
-        - park-seowoo (박서우)
-        - kim-taeseung (김태승)
-        - jung-areum (정아름)
-        - kim-minsu (김민수)
-        - lee-sunghoon (이성훈)
-        - kim-jaehoon (김재훈)
-        - kim-jongwon (김종원)
-        - yang-junpyo (양준표)
-        - kim-youngchan (김영찬)
-        - kim-sukyung (김수경)
-    validations:
-      required: true
-  - type: dropdown
     id: week
     attributes:
       label: 주차
