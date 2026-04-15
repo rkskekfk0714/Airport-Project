@@ -2,12 +2,6 @@ name: 📝 회의록
 description: 팀 회의 기록
 labels: ["📝 meeting"]
 body:
-  - type: dropdown
-    id: team
-      options:
-
-    validations:
-      required: true
   - type: input
     id: datetime
     attributes:
