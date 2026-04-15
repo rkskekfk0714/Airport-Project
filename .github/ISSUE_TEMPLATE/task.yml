@@ -1,0 +1,67 @@
+name: 📋 주차별 일감
+description: 주차별 학습/실습 일감 등록
+labels: ["📋 task"]
+body:
+  - type: dropdown
+    id: team
+    attributes:
+      label: 팀
+      options:
+        - kim-minji (김민지)
+        - kang-inho (강인호)
+        - park-seowoo (박서우)
+        - kim-taeseung (김태승)
+        - jung-areum (정아름)
+        - kim-minsu (김민수)
+        - lee-sunghoon (이성훈)
+        - kim-jaehoon (김재훈)
+        - kim-jongwon (김종원)
+        - yang-junpyo (양준표)
+        - kim-youngchan (김영찬)
+        - kim-sukyung (김수경)
+    validations:
+      required: true
+  - type: dropdown
+    id: week
+    attributes:
+      label: 주차
+      options:
+        - W01
+        - W02
+        - W03
+        - W04
+        - W05
+        - W06
+        - W07
+        - W08
+        - W09
+        - W10
+        - W11
+        - W12
+        - W13
+        - W14
+        - W15
+        - W16
+        - W17
+        - W18
+        - W19
+        - W20
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 일감 내용
+      placeholder: "학습/실습 내용을 작성해주세요"
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: 산출물
+      placeholder: "제출해야 할 산출물을 나열해주세요"
+  - type: input
+    id: due_date
+    attributes:
+      label: 마감일
+      placeholder: "YYYY-MM-DD"

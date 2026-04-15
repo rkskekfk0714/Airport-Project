@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 공통 FAQ 확인
+    url: https://github.com/msp-architect-2026/main/wiki/트러블슈팅-공통-FAQ
+    about: 먼저 공통 FAQ에서 해결 방법을 찾아보세요
+  - name: 📅 주차별 플랜 확인
+    url: https://github.com/msp-architect-2026/main/wiki
+    about: 주차별 학습 계획 및 공통 자료

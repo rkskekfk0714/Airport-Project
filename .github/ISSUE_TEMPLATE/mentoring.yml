@@ -1,0 +1,68 @@
+name: 🎓 멘토링
+description: 멘토링 세션 기록
+labels: ["🎓 mentoring"]
+body:
+  - type: dropdown
+    id: team
+    attributes:
+      label: 팀
+      options:
+        - kim-minji (김민지)
+        - kang-inho (강인호)
+        - park-seowoo (박서우)
+        - kim-taeseung (김태승)
+        - jung-areum (정아름)
+        - kim-minsu (김민수)
+        - lee-sunghoon (이성훈)
+        - kim-jaehoon (김재훈)
+        - kim-jongwon (김종원)
+        - yang-junpyo (양준표)
+        - kim-youngchan (김영찬)
+        - kim-sukyung (김수경)
+    validations:
+      required: true
+  - type: input
+    id: datetime
+    attributes:
+      label: 일시
+      placeholder: "YYYY-MM-DD HH:MM ~ HH:MM"
+    validations:
+      required: true
+  - type: input
+    id: mentor
+    attributes:
+      label: 멘토
+      placeholder: "마노 강사님"
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: 방식
+      options:
+        - 대면
+        - 온라인
+    validations:
+      required: true
+  - type: textarea
+    id: qa
+    attributes:
+      label: 질의응답
+      placeholder: |
+        ### Q1. [질문]
+        > 답변 요약
+
+        ### Q2. [질문]
+        > 답변 요약
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 피드백
+      placeholder: "멘토로부터 받은 피드백을 정리해주세요"
+  - type: textarea
+    id: action_items
+    attributes:
+      label: Action Items
+      placeholder: "- [ ] 이름: 할 일 (마감: MM/DD)"

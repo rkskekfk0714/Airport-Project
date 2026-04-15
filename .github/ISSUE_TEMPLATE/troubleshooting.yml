@@ -1,0 +1,85 @@
+name: 🔧 트러블슈팅
+description: 기술 이슈 보고 및 해결 기록
+labels: ["🔧 troubleshooting"]
+body:
+  - type: dropdown
+    id: team
+    attributes:
+      label: 팀
+      options:
+        - kim-minji (김민지)
+        - kang-inho (강인호)
+        - park-seowoo (박서우)
+        - kim-taeseung (김태승)
+        - jung-areum (정아름)
+        - kim-minsu (김민수)
+        - lee-sunghoon (이성훈)
+        - kim-jaehoon (김재훈)
+        - kim-jongwon (김종원)
+        - yang-junpyo (양준표)
+        - kim-youngchan (김영찬)
+        - kim-sukyung (김수경)
+    validations:
+      required: true
+  - type: dropdown
+    id: week
+    attributes:
+      label: 주차
+      options:
+        - W01
+        - W02
+        - W03
+        - W04
+        - W05
+        - W06
+        - W07
+        - W08
+        - W09
+        - W10
+        - W11
+        - W12
+        - W13
+        - W14
+        - W15
+        - W16
+        - W17
+        - W18
+        - W19
+        - W20
+    validations:
+      required: true
+  - type: input
+    id: scenario
+    attributes:
+      label: 관련 시나리오
+      placeholder: "Scenario A-3"
+  - type: textarea
+    id: symptom
+    attributes:
+      label: 증상
+      description: "에러 메시지 또는 현상을 설명해주세요"
+      placeholder: |
+        ```
+        에러 메시지 붙여넣기
+        ```
+    validations:
+      required: true
+  - type: textarea
+    id: cause
+    attributes:
+      label: 원인
+      description: "근본 원인을 분석해주세요"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 해결 방법
+      description: "해결에 사용한 명령어나 코드를 포함해주세요"
+    validations:
+      required: true
+  - type: textarea
+    id: lesson
+    attributes:
+      label: 교훈
+      description: "이 이슈에서 배운 점을 작성해주세요"
