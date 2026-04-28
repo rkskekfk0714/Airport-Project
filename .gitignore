@@ -1,0 +1,29 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.env
+backend/*.egg-info/
+backend/.pytest_cache/
+
+# Java (기존 빌드 산출물)
+backend/build/
+backend/.gradle/
+backend/**/*.class
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Docker
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
